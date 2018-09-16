@@ -5,7 +5,7 @@
 <mapper namespace="com.pcq.dao.IUserDao">
 
     <select id="getUserById" resultType="User" parameterType="int">
-        SELECT name  FROM USR WHERE id = #{id}
+        SELECT *  FROM USR WHERE id = #{id}
     </select>
 
 </mapper>
