@@ -25,7 +25,7 @@
 <DataModels_item1_item0_item1>
   <CTVER>43543230</CTVER>
   <ID>4</ID>
-  <Name>USER</Name>
+  <Name>USR</Name>
   <Caption>用户表</Caption>
   <CreateDate>2018/9/13 星期四</CreateDate>
   <ModifyDate>1899/12/30 星期六</ModifyDate>
@@ -106,7 +106,7 @@ Top=43.00</GraphDesc>
   <CTVER>43543230</CTVER>
   <ID>24</ID>
   <Name>STATE</Name>
-  <Memo>0正常 1已禁用 2注销</Memo>
+  <Memo>0正常 1已禁用 -1注销</Memo>
   <CreateDate>2018/9/13 星期四</CreateDate>
   <ModifyDate>1899/12/30 星期六</ModifyDate>
   <OrderNo>5</OrderNo>
@@ -223,7 +223,7 @@ Top=216.00</GraphDesc>
   <DisplayName>用户ID</DisplayName>
   <DataType>2</DataType>
   <KeyFieldType>3</KeyFieldType>
-  <RelateTable>USER</RelateTable>
+  <RelateTable>USR</RelateTable>
   <RelateField>ID</RelateField>
   <Nullable>0</Nullable>
   <EditorReadOnly>0</EditorReadOnly>
@@ -362,7 +362,7 @@ Top=242.00</GraphDesc>
   <DisplayName>用户id</DisplayName>
   <DataType>2</DataType>
   <KeyFieldType>3</KeyFieldType>
-  <RelateTable>USER</RelateTable>
+  <RelateTable>USR</RelateTable>
   <RelateField>ID</RelateField>
   <Nullable>0</Nullable>
   <EditorReadOnly>0</EditorReadOnly>
@@ -560,7 +560,7 @@ Top=28.00</GraphDesc>
   <DisplayName>用户id</DisplayName>
   <DataType>2</DataType>
   <KeyFieldType>3</KeyFieldType>
-  <RelateTable>USER</RelateTable>
+  <RelateTable>USR</RelateTable>
   <RelateField>ID</RelateField>
   <Nullable>0</Nullable>
   <EditorReadOnly>0</EditorReadOnly>
