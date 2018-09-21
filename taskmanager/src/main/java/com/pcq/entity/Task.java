@@ -16,6 +16,7 @@ public class Task {
     private Integer isPrivacy;
     private Integer state;
     private Integer difficultLevel;
+    private Integer priority;
 
     public Integer getId() {
         return id;
@@ -112,4 +113,8 @@ public class Task {
     public void setDifficultLevel(Integer difficultLevel) {
         this.difficultLevel = difficultLevel;
     }
+
+    public Integer getPriority() { return priority; }
+
+    public void setPriority(Integer priority) { this.priority = priority; }
 }
